@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>电影列表</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="filmlist.js"></script>
+</head>
+<body>
+<div class="ui-paging ui-list-item" id="film-category">
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('')">全部</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('剧情片')">剧情片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('喜剧片')">喜剧片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('动作片')">动作片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('爱情片')">爱情片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('科幻片')">科幻片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('动画片')">动画片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('悬疑片')">悬疑片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('音乐歌舞题材电影')">音乐歌舞题材电影</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('传记片')">传记片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('历史片')">历史片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('战争片')">战争片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('犯罪片')">犯罪片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('奇幻电影')">奇幻电影</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('冒险电影')">冒险电影</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('灾难片')">灾难片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('武侠片')">武侠片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('古装片')">古装片</a>
+	<a href="javascript:void(0)" class="ui-paging-item" onclick="gotoCategory('同性题材电影')">同性题材电影</a>
+</div>
+<div class="ui-grid-21">
+	<ul class="ui-list" id="film-list-container">
+		<!--循环列表开始-->
+	  	<!-- template
+	  	<li class="ui-list-item">
+	    <div class="ui-list-item-icon"><i class="ui-pdicon"></i></div>
+	    <div class="ui-list-item-title fn-break">
+	        <a href="t_123_8410198_1.htm" target="_blank" class="fn-highlight">。。。</a>
+	    </div>
+	    <div class="ui-list-item-category">剧情片</div>
+	    <div class="ui-list-item-language">美国</div>
+	    <div class="ui-list-item-score">6.5</div>
+		</li>
+		-->
+	    <!--循环列表结束-->
+	</ul>
+</div>
+<div class="ui-paging ui-list-item" id="film-list-pager">
+	
+</div>
+</body>
+</html>

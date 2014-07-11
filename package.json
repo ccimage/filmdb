@@ -1,0 +1,10 @@
+{
+  "name": "dy2018",
+  "description": "film database from dy2018",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "sqlite3": "2.2.3"
+  }
+}
