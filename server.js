@@ -69,5 +69,5 @@ function getFilmlist(where,nstart,page){
   	db.close();
 }
 function getDBName(){
-	return '/Users/admin/filmdb/data/filmdb.db';
+	return 'data/filmdb.db';
 }
